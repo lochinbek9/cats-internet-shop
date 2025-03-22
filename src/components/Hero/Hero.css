@@ -1,0 +1,44 @@
+.hero {
+    
+    background-image: url(./img/hero-bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.hero__container {
+    width: 100%;
+
+    padding: 153px 0 153px 100px;
+}
+
+.hero__text {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.hero__title {
+    padding: 15px 0 25px 0;
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.hero__description {
+    padding-bottom: 40px;
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(26, 33, 47, 1);
+}
+
