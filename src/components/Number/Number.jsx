@@ -5,7 +5,7 @@ function Number() {
   return (
     <section className="number">
         <div className="container">
-            <Slider apiUrl="/data/slides.json"/>
+            <Slider apiUrl="../data/slides.json"/>
         </div>
     </section>
   )
