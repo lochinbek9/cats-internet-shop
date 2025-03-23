@@ -1,9 +1,12 @@
+import Slider from "../Swiper/Slider"
 import "./Number.css"
 
 function Number() {
   return (
     <section className="number">
-        <div className="container"></div>
+        <div className="container">
+            <Slider apiUrl="/data/slides.json"/>
+        </div>
     </section>
   )
 }
