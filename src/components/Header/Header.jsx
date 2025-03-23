@@ -1,5 +1,5 @@
 
-import "./header.css"
+import "./Header.css"
 
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
