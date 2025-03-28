@@ -43,11 +43,25 @@ button{
   padding: 0 20px;
 }
 
-.site-btn {
+.site-btn-white {
   display: inline-block;
   cursor: pointer;
   padding: 10px 15px;
   background: rgba(255, 254, 253, 1);
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  border-radius: 40px;
+}
+
+.site-btn {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 15px;
+  background: rgba(255, 114, 54, 1);
   font-family: "Lato", sans-serif;
   font-weight: 600;
   font-size: 16px;

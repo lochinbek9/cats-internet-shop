@@ -1,0 +1,51 @@
+.number {
+    background-image: url(../img/fish.svg);
+    background-repeat: no-repeat;
+    padding-top: 137px;
+}
+
+.number__block {
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.number__right {
+    padding-top: 40px;
+    padding-left: 100px;
+    position: absolute;
+    top: 55%;
+    left: 70%;
+    z-index: 10;
+    width: 500px;
+    height: 284px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 25px 0px rgba(208, 208, 208, 0.25);
+    transform: translate(-50%, -50%);
+    background: rgb(255, 255, 255);
+}
+
+.number__title{
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.swiper{
+    margin: 0;
+}
+
+.number__right__title{
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    
+}

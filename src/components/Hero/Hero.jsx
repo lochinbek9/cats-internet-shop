@@ -15,7 +15,7 @@ function Hero() {
       </p>
       <a
         href="#"
-        className="hero__button site-btn  py-3 px-6 mt-6 inline-flex items-center rounded-lg transition duration-300"
+        className="hero__button site-btn-white  py-3 px-6 mt-6 inline-flex items-center rounded-lg transition duration-300"
       >
         Забронировать
         <i className="ml-2">
