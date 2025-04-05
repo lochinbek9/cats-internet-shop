@@ -4,6 +4,8 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Whywe from "./components/whywe/Whywe";
 import Number from "./components/Number/Number";
+import Feedback from "./components/Feedback/Feedback";
+
 function App() {
 
   return (
@@ -13,6 +15,7 @@ function App() {
         <Hero/>
         <Whywe/>
         <Number/>
+        <Feedback/>
       </main>
     </div>
   );
